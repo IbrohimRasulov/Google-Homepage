@@ -1,0 +1,171 @@
+body, h1, h2, h3, p, ul, a, button, table {
+    margin: 0;
+    padding: 0%;
+}
+
+.container {
+    background-color: #fff;
+}
+
+#navbar {
+    padding: 13px 5px;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li:hover {
+    text-decoration: underline;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    color: #222;
+    font-family: Arial;
+    font-size: 13px;
+    vertical-align: middle;
+    padding-right: 12px;
+}
+
+#navbar ul {
+    float: right;
+}
+
+#navbar img {
+    width: 32px;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+#navbar img:hover {
+    background-color: #ddd;
+}
+
+.clr {
+    clear: both;
+}
+
+#googleLogo img {
+    height: 92px;
+    margin-top:47px;
+    margin-bottom: 26px;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+#search input {
+    width: 45%;
+    height: 42px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+}
+
+#search input:hover {
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,0.10), 0 1px 10px 0 rgba(0,0,0,0.10);
+    border-color: #eee;
+}
+
+#buttons {
+    width: 22%;
+    margin: 28px auto;
+    
+}
+
+button {
+    font-family: Arial;
+    font-size: 14px;
+    border-radius: 7px;
+    color: #444;
+    background-color: #f8f9fa;
+    border: 1px solid #fff;
+    cursor: pointer;
+    padding: 10px 17px;
+}
+
+#margin {
+    margin-right: 2px;
+}
+
+button:hover {
+    border: 1px solid #ddd;
+}
+
+#language p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
+    color: #222;
+}
+
+#language p a {
+    text-decoration: none;
+}
+
+#language p a:hover {
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+}
+
+#country {
+    background-color: #f2f2f2;
+    color: #6f6f6f;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 14px 30px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 170px;
+    empty-cells: show;
+    
+    
+}
+
+#emptyCell {
+    background-color: #F2F2F2;
+    border-bottom: 1px solid #ddd;
+}
+
+#menubar {
+    background-color: #f2f2f2;
+    font-family: Arial;
+    height: 47px;
+    font-size: 14px;
+
+}
+
+#menubar a {
+    color: #6f6f6f;
+    text-decoration: none;
+    background-color: #f2f2f2;
+
+}
+
+#about a {
+    padding-right: 26px;
+}
+
+#about a:first-child {
+    padding-left: 34px;
+}
+
+#privacy a {
+    padding-right: 25px;
+}
+
+#about {
+    width: 79%;
+}
+
+#privacy {
+    width: 17%;
+}
